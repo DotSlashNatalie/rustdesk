@@ -1,0 +1,4 @@
+DSA - 12/3/2022
+
+- Updated username to use environment variable RUSTDESK_USERNAME (will still use system username if present)
+- Update versioning to add -A
