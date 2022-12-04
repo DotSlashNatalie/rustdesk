@@ -2,7 +2,7 @@
 name = "rustdesk-AllosTech"
 version = "1.2.0-A"
 authors = ["rustdesk <info@rustdesk.com>", "Natalie Adams <natalie@allostech.com>"]
-edition = "2022"
+edition = "2021"
 build= "build.rs"
 description = "A remote control software."
 default-run = "rustdesk"
