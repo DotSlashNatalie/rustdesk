@@ -5,7 +5,7 @@ authors = ["rustdesk <info@rustdesk.com>", "Natalie Adams <natalie@allostech.com
 edition = "2021"
 build= "build.rs"
 description = "A remote control software."
-default-run = "rustdesk"
+default-run = "rustdesk-AllosTech"
 
 [lib]
 name = "librustdesk"
