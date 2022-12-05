@@ -718,11 +718,7 @@ pub fn set_share_rdp(enable: bool) {
 }
 
 pub fn get_active_username() -> String {
-    let name = crate::username();
-    let envName = std::env::var("RUSTDESK_USERNAME");
-    if envName.is_empty() {
-        name = envName;
-    }
+    let name = env!("RUSTDESK_USERNAME", crate::username());
     if name != "SYSTEM" {
         return name;
     }
