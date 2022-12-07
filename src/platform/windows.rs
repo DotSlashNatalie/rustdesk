@@ -718,7 +718,7 @@ pub fn set_share_rdp(enable: bool) {
 }
 
 pub fn get_active_username() -> String {
-    let name = env!("RUSTDESK_USERNAME", "");
+    let name = env!("RUSTDESK_USERNAME");
     if name.is_empty() {
         name = crate::username();
     }
